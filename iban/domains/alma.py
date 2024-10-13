@@ -17,6 +17,18 @@ data = {
 					"insert_after": "section_section101",
 					"label": _("Plate Number"),
 				},
+        {
+					"fieldname": "car_color",
+					"fieldtype": "Data",
+					"insert_after": "plate_number",
+					"label": _("Car Color"),
+				},
+        {
+					"fieldname": "car_type",
+					"fieldtype": "Data",
+					"insert_after": "car_color",
+					"label": _("Car Type"),
+				},
         ]
 
 		},
