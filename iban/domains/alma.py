@@ -24,10 +24,32 @@ data = {
 					"label": _("Car Color"),
 				},
         {
+					"fieldname": "column_break101",
+					"fieldtype": "Column Break",
+					"insert_after": "car_color",
+				},
+        {
 					"fieldname": "car_type",
 					"fieldtype": "Data",
-					"insert_after": "car_color",
+					"insert_after": "column_break101",
 					"label": _("Car Type"),
+				},
+        {
+					"fieldname": "installed_order",
+					"fieldtype": "Data",
+					"insert_after": "car_type",
+					"label": _("Installed Order"),
+				},
+        {
+					"fieldname": "section_section102",
+					"fieldtype": "Section Break",
+					"insert_after": "installed_order",
+				},
+        {
+					"fieldname": "notes",
+					"fieldtype": "Text",
+					"insert_after": "section_section102",
+					"label": _("Notes"),
 				},
         ]
 
