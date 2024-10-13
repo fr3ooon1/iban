@@ -83,7 +83,13 @@ app_license = "mit"
 # ------------
 
 # before_install = "iban.install.before_install"
-# after_install = "iban.install.after_install"
+after_install = [
+    "iban.install.after_install",
+]
+
+after_migrate = [
+    "iban.install.after_install",
+]
 
 # Uninstallation
 # ------------
@@ -144,6 +150,10 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+
+domains = {
+    "Cars" : "iban.domains.cars",
+}
 
 # Scheduled Tasks
 # ---------------
