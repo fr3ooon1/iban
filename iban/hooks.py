@@ -153,6 +153,7 @@ after_migrate = [
 
 domains = {
     "Cars" : "iban.domains.cars",
+    "Alma" : "iban.domains.alma",
 }
 
 # Scheduled Tasks

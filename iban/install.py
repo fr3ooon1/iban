@@ -11,3 +11,8 @@ def create_domain_list():
 		dm1 = frappe.new_doc("Domain")
 		dm1.domain = 'Cars'
 		dm1.insert(ignore_permissions=True)
+	
+	if not frappe.db.exists("Domain", "Alma"):
+		dm1 = frappe.new_doc("Domain")
+		dm1.domain = 'Alma'
+		dm1.insert(ignore_permissions=True)
