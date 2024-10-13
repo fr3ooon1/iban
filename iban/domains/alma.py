@@ -47,7 +47,7 @@ data = {
 				},
         {
 					"fieldname": "notes",
-					"fieldtype": "Text",
+					"fieldtype": "Small Text",
 					"insert_after": "section_section102",
 					"label": _("Notes"),
 				},
