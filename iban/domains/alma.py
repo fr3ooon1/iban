@@ -13,7 +13,7 @@ data = {
 				},
 				{
 					"fieldname": "plate_number",
-					"fieldtype": "data",
+					"fieldtype": "Data",
 					"insert_after": "section_section101",
 					"label": _("Plate Number"),
 				},
