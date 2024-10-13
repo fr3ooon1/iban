@@ -41,14 +41,14 @@ data = {
 					"label": _("Installed Order"),
 				},
         {
-					"fieldname": "section_section102",
-					"fieldtype": "Section Break",
+					"fieldname": "column_section102",
+					"fieldtype": "Column Break",
 					"insert_after": "installed_order",
 				},
         {
 					"fieldname": "notes",
 					"fieldtype": "Small Text",
-					"insert_after": "section_section102",
+					"insert_after": "column_section102",
 					"label": _("Notes"),
 				},
         ]
