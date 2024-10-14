@@ -52,7 +52,7 @@ data = {
 					"label": _("Notes"),
 				},
         ],
-                "Sales Invoice":[
+                "Quotation":[
         {
 					"fieldname": "section_section101",
 					"fieldtype": "Section Break",
