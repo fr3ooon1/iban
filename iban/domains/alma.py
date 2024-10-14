@@ -54,7 +54,7 @@ data = {
         ],
                 "Quotation":[
         {
-					"fieldname": "section_section101",
+					"fieldname": "section_section103",
 					"fieldtype": "Section Break",
 					"insert_after": "set_target_warehouse",
 					"label": _("Cars Detials"),
@@ -62,7 +62,7 @@ data = {
 				{
 					"fieldname": "plate_number",
 					"fieldtype": "Data",
-					"insert_after": "section_section101",
+					"insert_after": "section_section103",
 					"label": _("Plate Number"),
 				},
         {
@@ -72,14 +72,14 @@ data = {
 					"label": _("Car Color"),
 				},
         {
-					"fieldname": "column_break101",
+					"fieldname": "column_break104",
 					"fieldtype": "Column Break",
 					"insert_after": "car_color",
 				},
         {
 					"fieldname": "car_type",
 					"fieldtype": "Data",
-					"insert_after": "column_break101",
+					"insert_after": "column_break104",
 					"label": _("Car Type"),
 				},
         {
@@ -89,14 +89,14 @@ data = {
 					"label": _("Installed Order"),
 				},
         {
-					"fieldname": "column_section102",
+					"fieldname": "column_section104",
 					"fieldtype": "Column Break",
 					"insert_after": "installed_order",
 				},
         {
 					"fieldname": "notes",
 					"fieldtype": "Small Text",
-					"insert_after": "column_section102",
+					"insert_after": "column_section104",
 					"label": _("Notes"),
 				},
         ]
